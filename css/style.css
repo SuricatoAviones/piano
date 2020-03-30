@@ -1,0 +1,123 @@
+:root{
+    --bg-dark: black;
+    --color-light: white;
+
+}
+body{
+    background-color: var(--bg-dark);
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    color: var(--color-light);
+    letter-spacing: .1rem;
+}
+
+ion-icon {
+    color: white;
+}
+.bg-dark{
+    background-color: var(--bg-dark) !important;
+}
+.logo{
+    min-width: 160px;
+    max-width: 180px;
+}
+.lead{
+    font-size: 1.8rem;
+    font-weight:200 ;   
+}
+.navbar{
+    min-height: 5rem;   
+}
+.nav-btn{
+    -webkit-appearance:none ;
+}
+.modal{
+    background-color: var(--bg-dark);
+} 
+.modal-content{
+    background-color: var(--bg-dark);
+    border:0;   
+
+}
+.nav-link{
+    color: var(--color-light);
+    transition: all .4s;
+}
+.nav-link:hover{
+    color: var(--color-light);
+    -webkit-text-fill-color: var(--color-light);
+    text-fill-color: var(--color-light);
+    cursor:pointer;
+    text-shadow: none;
+    transition: .4s;
+}
+.outline{
+    color: var(--bg-dark);
+    -webkit-text-stroke:1px var(--color-light);
+    text-stroke: 1px var(--color-light);
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    color: transparent;
+
+}
+.btn-primary{
+    background-color: var(--color-light);
+    color: var(--bg-dark);
+    padding: 1rem 3rem;
+    border: 0;
+    border-radius: 0;
+
+}
+.btn-primary:hover{
+    background-color: var(--color-light);
+    color: var(--bg-dark);
+    opacity: .9;
+    border: 0;
+    
+}
+.btn-sm{
+    padding: .5rem 1rem !important;
+
+}
+h1{
+    font-size: 6rem;
+    font-weight: 700 !important;  
+}
+.hero{
+    background-image: url("../assets/img/piano.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+}
+.hero-btn{
+    position: absolute;
+    background-color: var(--bg-dark);
+    color: var(--color-light);
+    bottom: 0;
+    right: 0;
+    height: 150px;
+    width: 150px;
+    border-radius: 0;
+
+
+}
+.hero-btn:hover{
+    background-color: var(--bg-dark);
+    color: var(--color-light);
+    opacity: .95;
+}
+@media(max-width:575.98px){
+    .navbar,.content{
+        padding: 0 1rem !important;
+    }
+}
+@media(max-width:768px){
+    .hero{
+        margin-top:3rem;
+    }
+}
+@media screen and (max-width:900px){
+    .palabra-christopher{
+        font-size: 28px;
+    }
+}
